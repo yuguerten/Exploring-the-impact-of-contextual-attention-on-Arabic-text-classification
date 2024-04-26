@@ -1,3 +1,5 @@
 Improving Arabic Text Categorization Using Transformer Training Diversification
+Improving Text Classification with Transformer
+
 
 
