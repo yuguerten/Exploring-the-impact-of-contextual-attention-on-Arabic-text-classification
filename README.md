@@ -20,4 +20,4 @@ We have implemented several models for text classification:
 
 ## Files
 - `dataset.csv`: The saved dataset after processing.
-- `newsfeed.csv`: The training dataset.
+- `train_data.csv`: The training dataset after doing the Data augmenting to categories that needs more articles. We used a creative technique which is summarize the article by using a pretrained model from Hugging face  then give the output of that summary to another model that can generate next words like gpt model
