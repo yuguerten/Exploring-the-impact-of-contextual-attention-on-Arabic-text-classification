@@ -1,6 +1,0 @@
-Improving Arabic Text Categorization Using Transformer Training Diversification
-Improving Text Classification with Transformer
-Comparative Study of CNN and RNN for Natural Language Processing
-
-
-
