@@ -13,7 +13,7 @@ We have implemented several models for text classification:
 - **AraBERT Model**: A transformer-based model specifically designed for Arabic text.
 
 ## Notebooks
-- `arabic-text-classification.ipynb`: Notebook containing the CNN model and LSTM model implemented.
+- `arabic_text_classification_LSTM_CNN.ipynb`: Notebook containing the CNN model and LSTM model implemented.
 - `text_classification_with_AraBert.ipynb`: Notebook with the AraBERT model implementation.
 - `preprocessing.ipynb`: Notebook detailing the exploratory data analysis (EDA) and preprocessing steps.
 - `processing-files.ipynb`: Notebook that processes the files so it will create my dataset.
