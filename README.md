@@ -1,23 +1,39 @@
-# Text Mining Project
+# Exploring the Impact of the Attention Mechanism in Arabic Text Classification with AraBert
 
 ## About
-This project explores the impact of contextual attention on Arabic text classification. We analyze attention mechanisms and their usefulness in transformers and generative models for Arabic text classification.
+This project investigates how the Attention mechanism improves Arabic text classification. It compares deep learning models, LSTM and CNN, that lack Attention, with AraBert, a Transformer model that utilizes Attention.
 
 ## Dataset
-The dataset used in this project includes Arabic text data that has been preprocessed for classification tasks. The preprocessing steps include cleaning, stemming, and lemmatization.
+Datasets used in the project can be found [here](https://sourceforge.net/projects/ar-text-mining/files/Arabic-Corpora/):
+- CNN Arabic news dataset: `cnn-arabic-utf8` (primary dataset)
+- BBC Arabic news dataset: `bbc-arabic-utf8`
 
 ## Models
-We have implemented several models for text classification:
-- **LSTM Model**: A Long short-term memory model for text classification.
-- **CNN Model**: A convolutional neural network model for text classification.
-- **AraBERT Model**: A transformer-based model specifically designed for Arabic text.
+The following deep learning models were tested:
+- **LSTM Model:** A Long short-term memory model for text classification.
+- **CNN Model:** A convolutional neural network model for text classification.
+- **AraBERT Model:** A transformer-based model specifically designed for Arabic text.
 
 ## Notebooks
-- `arabic_text_classification_LSTM_CNN.ipynb`: Notebook containing the CNN model and LSTM model implemented.
-- `text_classification_with_AraBert.ipynb`: Notebook with the AraBERT model implementation.
-- `preprocessing.ipynb`: Notebook detailing the exploratory data analysis (EDA) and preprocessing steps.
-- `processing-files.ipynb`: Notebook that processes the files so it will create my dataset.
+- `processing-files.ipynb`: Create .csv dataset from the downloaded dataset.
+- `preprocessing.ipynb`: Exploratory data analysis (EDA) and preprocessing steps, performed on the primary dataset CNN.
+- `data_augmentation.ipynb`: Data augmentation techniques performed.
+- `arabic_text_classification_LSTM_CNN.ipynb`: CNN and LSTM models implementation for Arabic text classification.
+- `text_classification_with_AraBert.ipynb`: AraBERT model implementation for Arabic text classification.
+- `arabic-sentiment-analysis-lstm-cnn (1).ipynb`: Arabic tweets sentiment analysis using LSTM and CNN.
+- `AraBERT_text_classification_and_sentiment_analysis.ipynb`: AraBERT model implementation for Arabic text classification + Arabic tweets sentiment analysis.
 
 ## Files
-- `dataset.csv`: The saved dataset after processing.
-- `train_data.csv`: The training dataset after doing the Data augmenting to categories that needs more articles. We used a creative technique which is summarize the article by using a pretrained model from Hugging face  then give the output of that summary to another model that can generate next words like gpt model
+- `dataset.csv`: The .csv dataset created from original .txt files.
+- `bbc-arabic-utf8_folder_form.rar`: Primary dataset: BBC Arabic news in a folder structure. Each folder corresponds to a specific category and contains .txt files related to that category.
+- `cnn-arabic-utf8_csv_form.zip`: CNN dataset in .csv format.
+- `train_data.csv`: Dataset after performing Data Augmentation.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments
+- The datasets used were sourced from [Arabic Corpora on SourceForge](https://sourceforge.net/projects/ar-text-mining/files/Arabic-Corpora/).
+
+## Contact
+For any inquiries or contributions, please contact [mouhcineouaaziz@gmail.com].
