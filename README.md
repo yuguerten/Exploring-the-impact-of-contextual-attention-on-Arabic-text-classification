@@ -4,7 +4,7 @@
 This project investigates how the Attention mechanism improves Arabic text classification. It compares deep learning models, LSTM and CNN, that lack Attention, with AraBert, a Transformer model that utilizes Attention.
 
 ## Research Report
-You can find the full research report on this project [here](./report.docx).
+You can find the full research report on this project [here](./report.pdf).
 
 ## Dataset
 Datasets used in the project can be found [here](https://sourceforge.net/projects/ar-text-mining/files/Arabic-Corpora/):
